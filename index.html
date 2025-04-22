@@ -2,14 +2,153 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY_PORTFOLIO</title>
-    <link rel="stylesheet" href="about_me.html">
-    <link rel="stylesheet" href="contact_me.html">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexandra Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+
+    <header>
+        <div class="logo">My portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>I’m <span>Ephrata</span><br>Glad to see you!</h1>
+        <p class="hero-description">
+            Hey there! I’m Ephrata, a software development student who’s always up for a coding challenge. I’ve been
+            diving into web dev, app building, and everything in between.
+
+            My portfolio’s a collection of the stuff I’ve built while learning — from school projects to fun experiments
+            I cooked up on my own. I'm all about writing clean code, solving real problems, and having fun along the
+            way.
+
+            Take a scroll through, and if you like what you see, let’s chat!
+
+
+        </p>
+
+        <div class="social-icons">
+            <a href="#" class="connect">LET’S CONNECT</a>
+            <div class="social-icons">
+                <img src="github-icon.png" alt="GitHub" />
+                <img src="linkedin-icon.png" alt="LinkedIn" />
+                <img src="twitter-icon.png" alt="Twitter" />
+                <img src="medium-icon.png" alt="Medium" />
+
+            </div>
+    </section>
+
+    <section class="projects" id="portfolio">
+        <div class="project-card">
+            <img src="project1.jpg" alt="Tonic project" />
+            <div class="project-details">
+                <h2>Tonic</h2>
+                <ul class="project-meta">
+                    <li><strong>CANOPY</strong></li>
+                    <li>Back End Dev</li>
+                    <li>2015</li>
+                </ul>
+                <p class="project-description">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                </p>
+                <ul class="tech-tags">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <button class="project-button">See Project</button>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="uber-navigation.jpg" alt="Uber Navigation project" />
+            <div class="project-details">
+                <h2>Uber Navigation</h2>
+                <ul class="project-meta">
+                    <li><strong>Uber</strong></li>
+                    <li>Lead Developer</li>
+                    <li>2018</li>
+                </ul>
+                <p class="project-description">
+                    A project that enhances user experience with seamless navigation features for Uber.
+                </p>
+                <ul class="tech-tags">
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+                <button class="project-button">See Project</button>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="facebook-360.jpg" alt="Facebook 360 project" />
+            <div class="project-details">
+                <h2>Facebook 360</h2>
+                <ul class="project-meta">
+                    <li><strong>Facebook</strong></li>
+                    <li>Full Stack Dev</li>
+                    <li>2015</li>
+                </ul>
+                <p class="project-description">
+                    Redefining the experience of media in Facebook's first Virtual Reality app.
+                </p>
+                <ul class="tech-tags">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>React</li>
+                </ul>
+                <button class="project-button">See Project</button>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="multi-post-stories.jpg" alt="Multi Post Stories project" />
+            <div class="project-details">
+                <h2>Multi Post Stories</h2>
+                <ul class="project-meta">
+                    <li><strong>Facebook</strong></li>
+                    <li>Full Stack Dev</li>
+                    <li>2016</li>
+                </ul>
+                <p class="project-description">
+                    A creative solution for posting multiple stories on Facebook effortlessly.
+                </p>
+                <ul class="tech-tags">
+                    <li>JavaScript</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                </ul>
+                <button class="project-button">See Project</button>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            I’m a software development student with a passion for building clean, user-friendly websites and
+            applications. I enjoy both front-end and back-end development, and I’m always excited to learn and take on
+            new challenges in tech.
+        </p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
 </body>
 
