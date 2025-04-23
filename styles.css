@@ -206,14 +206,14 @@ nav a {
 }
 
 .about {
-    background: var(--blue);
-    color: var(--white);
+    background: var(--white);
+    color: var(--black);
     padding: 60px 10%;
     text-align: center;
 }
 
 .contact {
-    background: var(--Blue);
+    background: var(--blue);
     padding: 60px 10%;
     text-align: center;
 }
