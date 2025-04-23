@@ -213,7 +213,7 @@ nav a {
 }
 
 .contact {
-    background: var(--white);
+    background: var(--Blue);
     padding: 60px 10%;
     text-align: center;
 }
@@ -232,7 +232,7 @@ nav a {
     border-radius: 5px;
 }
 
-.contact button {
+.contac button {
     background: var(--blue);
     color: var(--white);
     padding: 10px 20px;
