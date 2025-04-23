@@ -15,8 +15,11 @@
 
 body {
     font-family: var(--font-main);
-    background: var(--white);
+    background: url(background.jpg);
     color: var(--dark);
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 header {
@@ -47,7 +50,7 @@ nav a {
 }
 
 .hero {
-    background: var(--light-blue);
+
     padding: 80px 10%;
     text-align: left;
 }
@@ -83,6 +86,7 @@ nav a {
 
 .projects {
     padding: 60px 10%;
+
 }
 
 .project-card {
