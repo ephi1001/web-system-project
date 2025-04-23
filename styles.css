@@ -214,6 +214,7 @@ nav a {
 
 .contact {
     background: var(--blue);
+    color: white;
     padding: 60px 10%;
     text-align: center;
 }
