@@ -17,9 +17,6 @@ body {
     font-family: var(--font-main);
     background: url(background.jpg);
     color: var(--dark);
-    background-repeat: no-repeat;
-    background-position: center;
-
 }
 
 header {
@@ -50,7 +47,7 @@ nav a {
 }
 
 .hero {
-
+    background: var(--light-blue);
     padding: 80px 10%;
     text-align: left;
 }
@@ -86,7 +83,6 @@ nav a {
 
 .projects {
     padding: 60px 10%;
-
 }
 
 .project-card {
@@ -237,11 +233,56 @@ nav a {
     border-radius: 5px;
 }
 
-.contac button {
+.contact button {
     background: var(--blue);
     color: var(--white);
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     margin-top: 10px;
+}
+
+button,
+.project-card,
+nav a,
+.social-icons img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    will-change: transform;
+}
+
+.project-card {
+    perspective: 1000px;
+}
+
+.project-card:hover {
+    transform: translateZ(20px) rotateY(5deg) scale(1.05);
+    box-shadow: 0 10px 20px rgba(29, 78, 216, 0.3);
+    cursor: pointer;
+}
+
+
+.project-button:hover {
+    background: #1348d5;
+    transform: translateY(-3px) scale(1.1);
+    box-shadow: 0 8px 15px rgba(29, 78, 216, 0.4);
+}
+
+
+nav a:hover {
+    color: var(--blue);
+    transform: translateY(-2px);
+}
+
+
+.social-icons img:hover {
+    transform: translateZ(15px) rotateZ(10deg) scale(1.2);
+    filter: drop-shadow(0 5px 5px rgba(29, 78, 216, 0.4));
+    cursor: pointer;
+}
+
+
+#backToTop:hover {
+    background-color: #1348d5;
+    transform: translateY(-4px) scale(1.1);
+    box-shadow: 0 8px 15px rgba(29, 78, 216, 0.5);
 }
